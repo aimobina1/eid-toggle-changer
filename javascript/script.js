@@ -1,9 +1,5 @@
-body.classList.add("eid");
-  greeting.innerHTML = `🎅Merry Eid!`
-}
+const checkbox = document.getElementById("checkbox");
 
-function toggle() {
-  body.classList.remove("eid");
-  body.classList.add("snow");
-  greeting.innerHTML = `Let it Snow! ☃️`
-}
+checkbox.addEventListener('change',()=>{
+        document.body.classList.toggle('dark');
+});

@@ -10,6 +10,10 @@ body{
     text-align: center;
     height: 100vh;
     margin: 0;
+    transition: bkg 0.2s linear;
+}
+body.dark{
+    background-color:#292c35;
 }
 .checkbox{
     position:absolute;
@@ -36,6 +40,7 @@ body{
     border-radius: 15px;
     position: absolute;
     left:2px;
+    transition: transform 0.2s linear;
 }
 
 .checkbox:checked + .label .ball{
