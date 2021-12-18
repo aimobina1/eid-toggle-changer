@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
     transition: bkg 0.2s linear;
@@ -35,6 +36,7 @@ body.dark{
     padding:5px;
     border-radius: 50px;
     transform: scale(1.5);
+    margin-bottom: 18px;
 
 }
 .ball{
